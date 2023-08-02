@@ -1,6 +1,6 @@
 # Body-Fat-Estimation-using-LR
 
-![] (bfp.jpg)
+![](bfp.jpg)
 
 source: https://fitliferegime-1eaed.kxcdn.com/wp-content/uploads/2023/05/Visual-of-Body-Fat-Percentage.webp
 
