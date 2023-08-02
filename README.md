@@ -25,23 +25,27 @@ https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset
 This gives a more detailed measurement dataset with an estimated body fat percentage and density. All the measurements are in cms.
 There are 14 independent variables and 1 dependent variable, i.e. Body Fat.
 
-To predict an accurate percentage of body fat, I used Linear regression.
+To predict an accurate body fat percentage, I chose to use Linear Regression.
 
 Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It assumes a linear relationship between the variables and tries to find the line of best fit that minimizes the sum of the squared errors. The resulting equation can be used to predict the value of the dependent variable for a given set of independent variables
 
 ## Results
 
-On the last line of my notebook, we can see my estimated body fat percentage. It is ~32%, which is very high from the healthy range.
+The linear regression model yielded excellent results with a test dataset accuracy of approximately **~98.5%**, which is remarkable
+
+On the last line of my notebook, we can see my estimated body fat percentage. It is **~32%**, which is very high from the healthy range.
 
 Although, the predicted result is quite close to the actual result, I made some assumptions when providing the density.
 
 ## Conclusions
 
-- According to Katch and McArdle (1977), p. 113, a rough estimate of body fat can be calculated using this density (which can also be seen in the correlation map, as Density and Body fat are very strong correalated).
+- Based on Katch and McArdle's research (1977), a rough estimate of body fat can be calculated using the density, which is strongly correlated with body fat, as indicated in the correlation map. Moreover, height has a weak correlation with both density and body fat. On the other hand, abdomen measurements were found to be strongly correlated with body fat, aligning with previous studies that reveal the abdomen as a region where most individuals store a significant amount of fat due to its proximity to vital organs.
 - And, height of an individual is very weakly correlated to the density as well as the body fat of an individual.
 - While Abdomen was noted to be very strongly correlated to body fat, and it has been proven by many studies that most individual stores majority of fat in their abdomen area, reason being that this area has many vital organs.
 
 ## Future project ideas
-- How to lose weight.
-- How much money I am spending on food.
+- How to lose weight effectively: Explore various weight loss strategies and their impact on body fat percentage.
+- Tracking food expenses: Build a tool to monitor and analyze personal food expenses, encouraging healthier eating habits and budget management.
+
+
 
