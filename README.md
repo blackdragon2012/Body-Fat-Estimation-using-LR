@@ -29,7 +29,7 @@ To predict an accurate percentage of body fat, I used Linear regression.
 
 Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It assumes a linear relationship between the variables and tries to find the line of best fit that minimizes the sum of the squared errors. The resulting equation can be used to predict the value of the dependent variable for a given set of independent variables
 
-## Results
+## Results & Conclusions
 
 On the last line of my notebook, we can see my estimated body fat percentage. It is ~32%, which is very high from the healthy range.
 
